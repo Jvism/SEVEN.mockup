@@ -1,9 +1,5 @@
 @import 'main.css';
 
-body {
-    overflow-y: hidden;
-}
-
 header {
     height: 100vh;
     width: 100vw;
@@ -104,16 +100,7 @@ header .form_login form .input_form{
     outline: transparent;
 }
 
-header .form_login form .password .forgot_pass{
-    font-family: var(--primary-font);
-    font-weight: 600;
-    font-size: 14px;
-    color: var(--secondary-color-text);
-    margin-top: 5px;
-    text-align: end;
-}
-
-header .form_login form .login {
+header .form_login form .register {
     width: 300px;
     height: 50px;
     background: linear-gradient(90deg, #EF4D88 0%, #4346FF 100%);
@@ -124,9 +111,10 @@ header .form_login form .login {
     font-size: 18px;
     letter-spacing: -0.04em;
     color: var(--primary-color-text);
+    margin-top: 18px;
 }
 
-header .form_login .register{
+header .form_login .login{
     margin-top: 57px;
     font-family: var(--primary-font);
     font-weight: 600;
@@ -135,7 +123,7 @@ header .form_login .register{
     color: var(--secondary-color-text);
 }
 
-header .form_login .register a{
+header .form_login .login a{
     margin-left: 10px;
     color: var(--secondary-color);
 }

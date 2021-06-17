@@ -76,7 +76,7 @@ header .log_buttons .signup:hover {
 
 .description_and_platforms {
     width: 100vw;
-    height: 60vh;
+    height: 100%;
     background: var(--primary-background);
     display: flex;
     flex-direction: column;
