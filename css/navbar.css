@@ -1,0 +1,23 @@
+@import 'main.css';
+
+.navbar {
+    z-index: 9;
+    background: linear-gradient(0deg, transparent 0%, #1F1E30 100%);
+}
+
+.navbar .navbar-brand {
+    color: var(--primary-color-text);
+}
+
+.navbar .navbar-toggler {
+    border: none;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon{
+    color: var(--primary-color-text);
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    text-align: end;
+    padding: 5px 15px;
+}
