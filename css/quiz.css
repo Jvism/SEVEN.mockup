@@ -1,0 +1,11 @@
+@import 'main.css';
+@import 'navbar.css';
+@import 'navigation.css';
+
+body {
+    background: var(--primary-background);
+}
+iframe{
+    width: 375px;
+    height: 1400px;
+}
